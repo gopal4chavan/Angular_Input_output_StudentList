@@ -1,0 +1,22 @@
+li{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #dadada;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+li:hover{
+    border: 2px solid #adf;
+    cursor: pointer;
+}
+.id{
+    width: 15%;
+    float: left;
+}
+.name{
+    width: 80%;
+    float: right;
+}

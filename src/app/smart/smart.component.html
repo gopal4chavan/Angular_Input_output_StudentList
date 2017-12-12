@@ -1,0 +1,8 @@
+<app-presentation
+[StudentList] = list
+(emitStudent) = Handler($event)
+></app-presentation>
+<div *ngIf=selectedStudent>
+  You have selected
+  {{selectedStudent.Name}}
+</div>
